@@ -39,6 +39,16 @@ A simple embedded system project demonstrating **first interfacing code** for AV
 - Press **PC2** to shift LEDs pattern left
 - LED actions include delay for software debouncing to prevent bouncing effects
 
+  ## AVR LED Animation Simulation
+
+The figure below shows the simulation of the LED animation controller developed using AVR:
+
+![AVR LED Simulation](simulation.png "Simulation of LED Animation Controller")
+
+- LEDs blink in sequence according to programmed patterns.
+- Three push buttons are used to change animation modes.
+- Simulation run captured using proteus.
+
 ## Code Example Snippet
 
 ```c
